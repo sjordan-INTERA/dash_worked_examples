@@ -1,0 +1,9 @@
+name: dash-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - dash          # includes Dash, html, dcc, Input, Output
+  - pandas        # for DataFrame operations
+  - plotly        # for graph_objects, etc.
+  - dash-leaflet
